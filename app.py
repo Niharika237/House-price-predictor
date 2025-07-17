@@ -1,5 +1,5 @@
 from flask import Flask, request, render_template, jsonify
-import pandas as pd
+import pandas as pd 
 import xgboost as xgb
 
 model = xgb.XGBRegressor()
